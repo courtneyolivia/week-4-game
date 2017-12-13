@@ -1,0 +1,15 @@
+h2 {
+    font-family: Lobster, Monospace;
+    color: #FFFFFF;
+}
+
+ .blue-border {
+    border-color: blue;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50%;
+  }
+
+  .smaller-image {
+    width: 100px;
+  }

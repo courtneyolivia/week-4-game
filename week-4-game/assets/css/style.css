@@ -13,17 +13,6 @@ h2 {
     font-size: 250%;
 }
 
- .blue-border {
-    border-color: blue;
-    border-width: 5px;
-    border-style: solid;
-    border-radius: 50%;
-  }
-
- .smaller-image {
-    width: 300px;
-  }
-
  #title {
     background-color: #0059b3;
     width: 1000px;
@@ -39,3 +28,31 @@ h2 {
     margin: 25px;
 }
 
+.kitties {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.kitty {
+	height: 200px;
+	width: 200px;
+	border-color: blue;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50%;
+}
+
+img {
+	width: 50px;
+}
+
+#GoalNumber {
+	background-color: #0059b3;
+    width: 50px;
+    padding: 25px;
+    margin: 25px;
+    font-size: 60px;
+    color: #FFFFFF;
+
+}

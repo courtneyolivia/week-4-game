@@ -1,6 +1,16 @@
+body {
+    background-image: url("catbackground.jpeg");
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	margin-right: 200px;
+    background-attachment: fixed;
+}
+
+
 h2 {
-    font-family: Lobster, Monospace;
+    font-family: Arial;
     color: #FFFFFF;
+    font-size: 250%;
 }
 
  .blue-border {
@@ -10,6 +20,22 @@ h2 {
     border-radius: 50%;
   }
 
-  .smaller-image {
-    width: 100px;
+ .smaller-image {
+    width: 300px;
   }
+
+ #title {
+    background-color: #0059b3;
+    width: 1000px;
+    padding: 25px;
+    margin: 25px;
+    text-align: center;
+}
+
+ #paragraph {
+    background-color: #cce6ff;
+    width: 1000px;
+    padding: 25px;
+    margin: 25px;
+}
+
